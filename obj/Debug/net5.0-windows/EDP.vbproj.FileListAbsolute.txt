@@ -1,0 +1,245 @@
+C:\Users\ASUS\source\repos\EDP\bin\Debug\net5.0-windows\EDP.exe
+C:\Users\ASUS\source\repos\EDP\bin\Debug\net5.0-windows\EDP.deps.json
+C:\Users\ASUS\source\repos\EDP\bin\Debug\net5.0-windows\EDP.runtimeconfig.json
+C:\Users\ASUS\source\repos\EDP\bin\Debug\net5.0-windows\EDP.runtimeconfig.dev.json
+C:\Users\ASUS\source\repos\EDP\bin\Debug\net5.0-windows\EDP.dll
+C:\Users\ASUS\source\repos\EDP\bin\Debug\net5.0-windows\ref\EDP.dll
+C:\Users\ASUS\source\repos\EDP\bin\Debug\net5.0-windows\EDP.pdb
+C:\Users\ASUS\source\repos\EDP\obj\Debug\net5.0-windows\EDP.vbproj.AssemblyReference.cache
+C:\Users\ASUS\source\repos\EDP\obj\Debug\net5.0-windows\EDP.Form1.resources
+C:\Users\ASUS\source\repos\EDP\obj\Debug\net5.0-windows\EDP.Resources.resources
+C:\Users\ASUS\source\repos\EDP\obj\Debug\net5.0-windows\EDP.vbproj.GenerateResource.cache
+C:\Users\ASUS\source\repos\EDP\obj\Debug\net5.0-windows\EDP.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ASUS\source\repos\EDP\obj\Debug\net5.0-windows\EDP.AssemblyInfoInputs.cache
+C:\Users\ASUS\source\repos\EDP\obj\Debug\net5.0-windows\EDP.AssemblyInfo.vb
+C:\Users\ASUS\source\repos\EDP\obj\Debug\net5.0-windows\EDP.vbproj.CoreCompileInputs.cache
+C:\Users\ASUS\source\repos\EDP\obj\Debug\net5.0-windows\EDP.dll
+C:\Users\ASUS\source\repos\EDP\obj\Debug\net5.0-windows\ref\EDP.dll
+C:\Users\ASUS\source\repos\EDP\obj\Debug\net5.0-windows\EDP.pdb
+C:\Users\ASUS\source\repos\EDP\obj\Debug\net5.0-windows\EDP.genruntimeconfig.cache
+C:\Users\ASUS\source\repos\EDP\obj\Debug\net5.0-windows\EDP.Form2.resources
+C:\Users\ASUS\source\repos\EDP\obj\Debug\net5.0-windows\EDP.Form3.resources
+C:\Users\ASUS\source\repos\EDP\obj\Debug\net5.0-windows\EDP.Form4.resources
+C:\Users\ASUS\source\repos\EDP\obj\Debug\net5.0-windows\EDP.Form5.resources
+C:\Users\ASUS\source\repos\EDP_Project\bin\Debug\net5.0-windows\EDP.exe
+C:\Users\ASUS\source\repos\EDP_Project\bin\Debug\net5.0-windows\EDP.deps.json
+C:\Users\ASUS\source\repos\EDP_Project\bin\Debug\net5.0-windows\EDP.runtimeconfig.json
+C:\Users\ASUS\source\repos\EDP_Project\bin\Debug\net5.0-windows\EDP.runtimeconfig.dev.json
+C:\Users\ASUS\source\repos\EDP_Project\bin\Debug\net5.0-windows\EDP.dll
+C:\Users\ASUS\source\repos\EDP_Project\bin\Debug\net5.0-windows\ref\EDP.dll
+C:\Users\ASUS\source\repos\EDP_Project\bin\Debug\net5.0-windows\EDP.pdb
+C:\Users\ASUS\source\repos\EDP_Project\obj\Debug\net5.0-windows\EDP.Form1.resources
+C:\Users\ASUS\source\repos\EDP_Project\obj\Debug\net5.0-windows\EDP.Form2.resources
+C:\Users\ASUS\source\repos\EDP_Project\obj\Debug\net5.0-windows\EDP.Form3.resources
+C:\Users\ASUS\source\repos\EDP_Project\obj\Debug\net5.0-windows\EDP.Form4.resources
+C:\Users\ASUS\source\repos\EDP_Project\obj\Debug\net5.0-windows\EDP.Form5.resources
+C:\Users\ASUS\source\repos\EDP_Project\obj\Debug\net5.0-windows\EDP.Resources.resources
+C:\Users\ASUS\source\repos\EDP_Project\obj\Debug\net5.0-windows\EDP.vbproj.GenerateResource.cache
+C:\Users\ASUS\source\repos\EDP_Project\obj\Debug\net5.0-windows\EDP.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ASUS\source\repos\EDP_Project\obj\Debug\net5.0-windows\EDP.AssemblyInfoInputs.cache
+C:\Users\ASUS\source\repos\EDP_Project\obj\Debug\net5.0-windows\EDP.AssemblyInfo.vb
+C:\Users\ASUS\source\repos\EDP_Project\obj\Debug\net5.0-windows\EDP.vbproj.CoreCompileInputs.cache
+C:\Users\ASUS\source\repos\EDP_Project\obj\Debug\net5.0-windows\EDP.dll
+C:\Users\ASUS\source\repos\EDP_Project\obj\Debug\net5.0-windows\ref\EDP.dll
+C:\Users\ASUS\source\repos\EDP_Project\obj\Debug\net5.0-windows\EDP.pdb
+C:\Users\ASUS\source\repos\EDP_Project\obj\Debug\net5.0-windows\EDP.genruntimeconfig.cache
+C:\Users\Administrator\Desktop\EDP_Project\bin\Debug\net5.0-windows\EDP.exe
+C:\Users\Administrator\Desktop\EDP_Project\bin\Debug\net5.0-windows\EDP.deps.json
+C:\Users\Administrator\Desktop\EDP_Project\bin\Debug\net5.0-windows\EDP.runtimeconfig.json
+C:\Users\Administrator\Desktop\EDP_Project\bin\Debug\net5.0-windows\EDP.runtimeconfig.dev.json
+C:\Users\Administrator\Desktop\EDP_Project\bin\Debug\net5.0-windows\EDP.dll
+C:\Users\Administrator\Desktop\EDP_Project\bin\Debug\net5.0-windows\ref\EDP.dll
+C:\Users\Administrator\Desktop\EDP_Project\bin\Debug\net5.0-windows\EDP.pdb
+C:\Users\Administrator\Desktop\EDP_Project\bin\Debug\net5.0-windows\BouncyCastle.Crypto.dll
+C:\Users\Administrator\Desktop\EDP_Project\bin\Debug\net5.0-windows\Google.Protobuf.dll
+C:\Users\Administrator\Desktop\EDP_Project\bin\Debug\net5.0-windows\K4os.Compression.LZ4.dll
+C:\Users\Administrator\Desktop\EDP_Project\bin\Debug\net5.0-windows\K4os.Compression.LZ4.Streams.dll
+C:\Users\Administrator\Desktop\EDP_Project\bin\Debug\net5.0-windows\K4os.Hash.xxHash.dll
+C:\Users\Administrator\Desktop\EDP_Project\bin\Debug\net5.0-windows\MySql.Data.dll
+C:\Users\Administrator\Desktop\EDP_Project\bin\Debug\net5.0-windows\Ubiety.Dns.Core.dll
+C:\Users\Administrator\Desktop\EDP_Project\bin\Debug\net5.0-windows\ZstdNet.dll
+C:\Users\Administrator\Desktop\EDP_Project\obj\Debug\net5.0-windows\EDP.vbproj.AssemblyReference.cache
+C:\Users\Administrator\Desktop\EDP_Project\obj\Debug\net5.0-windows\EDP.AdminPass.resources
+C:\Users\Administrator\Desktop\EDP_Project\obj\Debug\net5.0-windows\EDP.ChangePass.resources
+C:\Users\Administrator\Desktop\EDP_Project\obj\Debug\net5.0-windows\EDP.FgtPassForm.resources
+C:\Users\Administrator\Desktop\EDP_Project\obj\Debug\net5.0-windows\EDP.LoginForm.resources
+C:\Users\Administrator\Desktop\EDP_Project\obj\Debug\net5.0-windows\EDP.Resources.resources
+C:\Users\Administrator\Desktop\EDP_Project\obj\Debug\net5.0-windows\EDP.PatInfoEditAddForm.resources
+C:\Users\Administrator\Desktop\EDP_Project\obj\Debug\net5.0-windows\EDP.PatTableForm.resources
+C:\Users\Administrator\Desktop\EDP_Project\obj\Debug\net5.0-windows\EDP.RegisterForm.resources
+C:\Users\Administrator\Desktop\EDP_Project\obj\Debug\net5.0-windows\EDP.vbproj.GenerateResource.cache
+C:\Users\Administrator\Desktop\EDP_Project\obj\Debug\net5.0-windows\EDP.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\Desktop\EDP_Project\obj\Debug\net5.0-windows\EDP.AssemblyInfoInputs.cache
+C:\Users\Administrator\Desktop\EDP_Project\obj\Debug\net5.0-windows\EDP.AssemblyInfo.vb
+C:\Users\Administrator\Desktop\EDP_Project\obj\Debug\net5.0-windows\EDP.vbproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\EDP_Project\obj\Debug\net5.0-windows\EDP.vbproj.CopyComplete
+C:\Users\Administrator\Desktop\EDP_Project\obj\Debug\net5.0-windows\EDP.dll
+C:\Users\Administrator\Desktop\EDP_Project\obj\Debug\net5.0-windows\ref\EDP.dll
+C:\Users\Administrator\Desktop\EDP_Project\obj\Debug\net5.0-windows\EDP.pdb
+C:\Users\Administrator\Desktop\EDP_Project\obj\Debug\net5.0-windows\EDP.genruntimeconfig.cache
+C:\Users\ASUS\Downloads\EDP_Project-main - Copy\bin\Debug\net5.0-windows\EDP.exe
+C:\Users\ASUS\Downloads\EDP_Project-main - Copy\bin\Debug\net5.0-windows\EDP.deps.json
+C:\Users\ASUS\Downloads\EDP_Project-main - Copy\bin\Debug\net5.0-windows\EDP.runtimeconfig.json
+C:\Users\ASUS\Downloads\EDP_Project-main - Copy\bin\Debug\net5.0-windows\EDP.runtimeconfig.dev.json
+C:\Users\ASUS\Downloads\EDP_Project-main - Copy\bin\Debug\net5.0-windows\EDP.dll
+C:\Users\ASUS\Downloads\EDP_Project-main - Copy\bin\Debug\net5.0-windows\ref\EDP.dll
+C:\Users\ASUS\Downloads\EDP_Project-main - Copy\bin\Debug\net5.0-windows\EDP.pdb
+C:\Users\ASUS\Downloads\EDP_Project-main - Copy\bin\Debug\net5.0-windows\BouncyCastle.Crypto.dll
+C:\Users\ASUS\Downloads\EDP_Project-main - Copy\bin\Debug\net5.0-windows\Google.Protobuf.dll
+C:\Users\ASUS\Downloads\EDP_Project-main - Copy\bin\Debug\net5.0-windows\K4os.Compression.LZ4.dll
+C:\Users\ASUS\Downloads\EDP_Project-main - Copy\bin\Debug\net5.0-windows\K4os.Compression.LZ4.Streams.dll
+C:\Users\ASUS\Downloads\EDP_Project-main - Copy\bin\Debug\net5.0-windows\K4os.Hash.xxHash.dll
+C:\Users\ASUS\Downloads\EDP_Project-main - Copy\bin\Debug\net5.0-windows\MySql.Data.dll
+C:\Users\ASUS\Downloads\EDP_Project-main - Copy\bin\Debug\net5.0-windows\Ubiety.Dns.Core.dll
+C:\Users\ASUS\Downloads\EDP_Project-main - Copy\bin\Debug\net5.0-windows\ZstdNet.dll
+C:\Users\ASUS\Downloads\EDP_Project-main - Copy\obj\Debug\net5.0-windows\EDP.AdminPass.resources
+C:\Users\ASUS\Downloads\EDP_Project-main - Copy\obj\Debug\net5.0-windows\EDP.AppointmentForm.resources
+C:\Users\ASUS\Downloads\EDP_Project-main - Copy\obj\Debug\net5.0-windows\EDP.ChangePass.resources
+C:\Users\ASUS\Downloads\EDP_Project-main - Copy\obj\Debug\net5.0-windows\EDP.DBConnectTest.resources
+C:\Users\ASUS\Downloads\EDP_Project-main - Copy\obj\Debug\net5.0-windows\EDP.EmpInfoEditAddForm.resources
+C:\Users\ASUS\Downloads\EDP_Project-main - Copy\obj\Debug\net5.0-windows\EDP.EmployeeForm.resources
+C:\Users\ASUS\Downloads\EDP_Project-main - Copy\obj\Debug\net5.0-windows\EDP.FgtPassForm.resources
+C:\Users\ASUS\Downloads\EDP_Project-main - Copy\obj\Debug\net5.0-windows\EDP.LoginForm.resources
+C:\Users\ASUS\Downloads\EDP_Project-main - Copy\obj\Debug\net5.0-windows\EDP.MainForm.resources
+C:\Users\ASUS\Downloads\EDP_Project-main - Copy\obj\Debug\net5.0-windows\EDP.Resources.resources
+C:\Users\ASUS\Downloads\EDP_Project-main - Copy\obj\Debug\net5.0-windows\EDP.PatInfoEditAddForm.resources
+C:\Users\ASUS\Downloads\EDP_Project-main - Copy\obj\Debug\net5.0-windows\EDP.PatTableForm.resources
+C:\Users\ASUS\Downloads\EDP_Project-main - Copy\obj\Debug\net5.0-windows\EDP.RegisterForm.resources
+C:\Users\ASUS\Downloads\EDP_Project-main - Copy\obj\Debug\net5.0-windows\EDP.UserAccountForm.resources
+C:\Users\ASUS\Downloads\EDP_Project-main - Copy\obj\Debug\net5.0-windows\EDP.UserInfoEditAddForm.resources
+C:\Users\ASUS\Downloads\EDP_Project-main - Copy\obj\Debug\net5.0-windows\EDP.vbproj.GenerateResource.cache
+C:\Users\ASUS\Downloads\EDP_Project-main - Copy\obj\Debug\net5.0-windows\EDP.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ASUS\Downloads\EDP_Project-main - Copy\obj\Debug\net5.0-windows\EDP.AssemblyInfoInputs.cache
+C:\Users\ASUS\Downloads\EDP_Project-main - Copy\obj\Debug\net5.0-windows\EDP.AssemblyInfo.vb
+C:\Users\ASUS\Downloads\EDP_Project-main - Copy\obj\Debug\net5.0-windows\EDP.vbproj.CoreCompileInputs.cache
+C:\Users\ASUS\Downloads\EDP_Project-main - Copy\obj\Debug\net5.0-windows\EDP.vbproj.CopyComplete
+C:\Users\ASUS\Downloads\EDP_Project-main - Copy\obj\Debug\net5.0-windows\EDP.dll
+C:\Users\ASUS\Downloads\EDP_Project-main - Copy\obj\Debug\net5.0-windows\ref\EDP.dll
+C:\Users\ASUS\Downloads\EDP_Project-main - Copy\obj\Debug\net5.0-windows\EDP.pdb
+C:\Users\ASUS\Downloads\EDP_Project-main - Copy\obj\Debug\net5.0-windows\EDP.genruntimeconfig.cache
+C:\Users\ASUS\Downloads\EDP_Project-main\bin\Debug\net5.0-windows\EDP.exe
+C:\Users\ASUS\Downloads\EDP_Project-main\bin\Debug\net5.0-windows\EDP.deps.json
+C:\Users\ASUS\Downloads\EDP_Project-main\bin\Debug\net5.0-windows\EDP.runtimeconfig.json
+C:\Users\ASUS\Downloads\EDP_Project-main\bin\Debug\net5.0-windows\EDP.runtimeconfig.dev.json
+C:\Users\ASUS\Downloads\EDP_Project-main\bin\Debug\net5.0-windows\EDP.dll
+C:\Users\ASUS\Downloads\EDP_Project-main\bin\Debug\net5.0-windows\ref\EDP.dll
+C:\Users\ASUS\Downloads\EDP_Project-main\bin\Debug\net5.0-windows\EDP.pdb
+C:\Users\ASUS\Downloads\EDP_Project-main\bin\Debug\net5.0-windows\BouncyCastle.Crypto.dll
+C:\Users\ASUS\Downloads\EDP_Project-main\bin\Debug\net5.0-windows\Google.Protobuf.dll
+C:\Users\ASUS\Downloads\EDP_Project-main\bin\Debug\net5.0-windows\K4os.Compression.LZ4.dll
+C:\Users\ASUS\Downloads\EDP_Project-main\bin\Debug\net5.0-windows\K4os.Compression.LZ4.Streams.dll
+C:\Users\ASUS\Downloads\EDP_Project-main\bin\Debug\net5.0-windows\K4os.Hash.xxHash.dll
+C:\Users\ASUS\Downloads\EDP_Project-main\bin\Debug\net5.0-windows\MySql.Data.dll
+C:\Users\ASUS\Downloads\EDP_Project-main\bin\Debug\net5.0-windows\Ubiety.Dns.Core.dll
+C:\Users\ASUS\Downloads\EDP_Project-main\bin\Debug\net5.0-windows\ZstdNet.dll
+C:\Users\ASUS\Downloads\EDP_Project-main\obj\Debug\net5.0-windows\EDP.AdminPass.resources
+C:\Users\ASUS\Downloads\EDP_Project-main\obj\Debug\net5.0-windows\EDP.AppointmentForm.resources
+C:\Users\ASUS\Downloads\EDP_Project-main\obj\Debug\net5.0-windows\EDP.ChangePass.resources
+C:\Users\ASUS\Downloads\EDP_Project-main\obj\Debug\net5.0-windows\EDP.DBConnectTest.resources
+C:\Users\ASUS\Downloads\EDP_Project-main\obj\Debug\net5.0-windows\EDP.EmpInfoEditAddForm.resources
+C:\Users\ASUS\Downloads\EDP_Project-main\obj\Debug\net5.0-windows\EDP.EmployeeForm.resources
+C:\Users\ASUS\Downloads\EDP_Project-main\obj\Debug\net5.0-windows\EDP.FgtPassForm.resources
+C:\Users\ASUS\Downloads\EDP_Project-main\obj\Debug\net5.0-windows\EDP.LoginForm.resources
+C:\Users\ASUS\Downloads\EDP_Project-main\obj\Debug\net5.0-windows\EDP.MainForm.resources
+C:\Users\ASUS\Downloads\EDP_Project-main\obj\Debug\net5.0-windows\EDP.Resources.resources
+C:\Users\ASUS\Downloads\EDP_Project-main\obj\Debug\net5.0-windows\EDP.PatInfoEditAddForm.resources
+C:\Users\ASUS\Downloads\EDP_Project-main\obj\Debug\net5.0-windows\EDP.PatTableForm.resources
+C:\Users\ASUS\Downloads\EDP_Project-main\obj\Debug\net5.0-windows\EDP.RegisterForm.resources
+C:\Users\ASUS\Downloads\EDP_Project-main\obj\Debug\net5.0-windows\EDP.UserAccountForm.resources
+C:\Users\ASUS\Downloads\EDP_Project-main\obj\Debug\net5.0-windows\EDP.UserInfoEditAddForm.resources
+C:\Users\ASUS\Downloads\EDP_Project-main\obj\Debug\net5.0-windows\EDP.UserLogForm.resources
+C:\Users\ASUS\Downloads\EDP_Project-main\obj\Debug\net5.0-windows\EDP.vbproj.GenerateResource.cache
+C:\Users\ASUS\Downloads\EDP_Project-main\obj\Debug\net5.0-windows\EDP.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ASUS\Downloads\EDP_Project-main\obj\Debug\net5.0-windows\EDP.AssemblyInfoInputs.cache
+C:\Users\ASUS\Downloads\EDP_Project-main\obj\Debug\net5.0-windows\EDP.AssemblyInfo.vb
+C:\Users\ASUS\Downloads\EDP_Project-main\obj\Debug\net5.0-windows\EDP.vbproj.CoreCompileInputs.cache
+C:\Users\ASUS\Downloads\EDP_Project-main\obj\Debug\net5.0-windows\EDP.vbproj.CopyComplete
+C:\Users\ASUS\Downloads\EDP_Project-main\obj\Debug\net5.0-windows\EDP.dll
+C:\Users\ASUS\Downloads\EDP_Project-main\obj\Debug\net5.0-windows\ref\EDP.dll
+C:\Users\ASUS\Downloads\EDP_Project-main\obj\Debug\net5.0-windows\EDP.pdb
+C:\Users\ASUS\Downloads\EDP_Project-main\obj\Debug\net5.0-windows\EDP.genruntimeconfig.cache
+C:\Users\Administrator\Desktop\EDP\EDP_Project\bin\Debug\net5.0-windows\EDP.exe
+C:\Users\Administrator\Desktop\EDP\EDP_Project\bin\Debug\net5.0-windows\EDP.deps.json
+C:\Users\Administrator\Desktop\EDP\EDP_Project\bin\Debug\net5.0-windows\EDP.runtimeconfig.json
+C:\Users\Administrator\Desktop\EDP\EDP_Project\bin\Debug\net5.0-windows\EDP.runtimeconfig.dev.json
+C:\Users\Administrator\Desktop\EDP\EDP_Project\bin\Debug\net5.0-windows\EDP.dll
+C:\Users\Administrator\Desktop\EDP\EDP_Project\bin\Debug\net5.0-windows\ref\EDP.dll
+C:\Users\Administrator\Desktop\EDP\EDP_Project\bin\Debug\net5.0-windows\EDP.pdb
+C:\Users\Administrator\Desktop\EDP\EDP_Project\bin\Debug\net5.0-windows\BouncyCastle.Crypto.dll
+C:\Users\Administrator\Desktop\EDP\EDP_Project\bin\Debug\net5.0-windows\Google.Protobuf.dll
+C:\Users\Administrator\Desktop\EDP\EDP_Project\bin\Debug\net5.0-windows\K4os.Compression.LZ4.dll
+C:\Users\Administrator\Desktop\EDP\EDP_Project\bin\Debug\net5.0-windows\K4os.Compression.LZ4.Streams.dll
+C:\Users\Administrator\Desktop\EDP\EDP_Project\bin\Debug\net5.0-windows\K4os.Hash.xxHash.dll
+C:\Users\Administrator\Desktop\EDP\EDP_Project\bin\Debug\net5.0-windows\MySql.Data.dll
+C:\Users\Administrator\Desktop\EDP\EDP_Project\bin\Debug\net5.0-windows\Ubiety.Dns.Core.dll
+C:\Users\Administrator\Desktop\EDP\EDP_Project\bin\Debug\net5.0-windows\ZstdNet.dll
+C:\Users\Administrator\Desktop\EDP\EDP_Project\obj\Debug\net5.0-windows\EDP.vbproj.AssemblyReference.cache
+C:\Users\Administrator\Desktop\EDP\EDP_Project\obj\Debug\net5.0-windows\EDP.AdminPass.resources
+C:\Users\Administrator\Desktop\EDP\EDP_Project\obj\Debug\net5.0-windows\EDP.AppointmentForm.resources
+C:\Users\Administrator\Desktop\EDP\EDP_Project\obj\Debug\net5.0-windows\EDP.ChangePass.resources
+C:\Users\Administrator\Desktop\EDP\EDP_Project\obj\Debug\net5.0-windows\EDP.DBConnectTest.resources
+C:\Users\Administrator\Desktop\EDP\EDP_Project\obj\Debug\net5.0-windows\EDP.EmpInfoEditAddForm.resources
+C:\Users\Administrator\Desktop\EDP\EDP_Project\obj\Debug\net5.0-windows\EDP.EmployeeForm.resources
+C:\Users\Administrator\Desktop\EDP\EDP_Project\obj\Debug\net5.0-windows\EDP.FgtPassForm.resources
+C:\Users\Administrator\Desktop\EDP\EDP_Project\obj\Debug\net5.0-windows\EDP.LoginForm.resources
+C:\Users\Administrator\Desktop\EDP\EDP_Project\obj\Debug\net5.0-windows\EDP.MainForm.resources
+C:\Users\Administrator\Desktop\EDP\EDP_Project\obj\Debug\net5.0-windows\EDP.Resources.resources
+C:\Users\Administrator\Desktop\EDP\EDP_Project\obj\Debug\net5.0-windows\EDP.PatInfoEditAddForm.resources
+C:\Users\Administrator\Desktop\EDP\EDP_Project\obj\Debug\net5.0-windows\EDP.PatTableForm.resources
+C:\Users\Administrator\Desktop\EDP\EDP_Project\obj\Debug\net5.0-windows\EDP.RegisterForm.resources
+C:\Users\Administrator\Desktop\EDP\EDP_Project\obj\Debug\net5.0-windows\EDP.UserAccountForm.resources
+C:\Users\Administrator\Desktop\EDP\EDP_Project\obj\Debug\net5.0-windows\EDP.UserInfoEditAddForm.resources
+C:\Users\Administrator\Desktop\EDP\EDP_Project\obj\Debug\net5.0-windows\EDP.UserLogForm.resources
+C:\Users\Administrator\Desktop\EDP\EDP_Project\obj\Debug\net5.0-windows\EDP.vbproj.GenerateResource.cache
+C:\Users\Administrator\Desktop\EDP\EDP_Project\obj\Debug\net5.0-windows\EDP.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\Desktop\EDP\EDP_Project\obj\Debug\net5.0-windows\EDP.AssemblyInfoInputs.cache
+C:\Users\Administrator\Desktop\EDP\EDP_Project\obj\Debug\net5.0-windows\EDP.AssemblyInfo.vb
+C:\Users\Administrator\Desktop\EDP\EDP_Project\obj\Debug\net5.0-windows\EDP.vbproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\EDP\EDP_Project\obj\Debug\net5.0-windows\EDP.vbproj.CopyComplete
+C:\Users\Administrator\Desktop\EDP\EDP_Project\obj\Debug\net5.0-windows\EDP.dll
+C:\Users\Administrator\Desktop\EDP\EDP_Project\obj\Debug\net5.0-windows\ref\EDP.dll
+C:\Users\Administrator\Desktop\EDP\EDP_Project\obj\Debug\net5.0-windows\EDP.pdb
+C:\Users\Administrator\Desktop\EDP\EDP_Project\obj\Debug\net5.0-windows\EDP.genruntimeconfig.cache
+C:\Users\ASUS\Downloads\JEVAH\EVENT DRIVEN\EDP_Project-main\bin\Debug\net5.0-windows\EDP.exe
+C:\Users\ASUS\Downloads\JEVAH\EVENT DRIVEN\EDP_Project-main\bin\Debug\net5.0-windows\EDP.deps.json
+C:\Users\ASUS\Downloads\JEVAH\EVENT DRIVEN\EDP_Project-main\bin\Debug\net5.0-windows\EDP.runtimeconfig.json
+C:\Users\ASUS\Downloads\JEVAH\EVENT DRIVEN\EDP_Project-main\bin\Debug\net5.0-windows\EDP.runtimeconfig.dev.json
+C:\Users\ASUS\Downloads\JEVAH\EVENT DRIVEN\EDP_Project-main\bin\Debug\net5.0-windows\EDP.dll
+C:\Users\ASUS\Downloads\JEVAH\EVENT DRIVEN\EDP_Project-main\bin\Debug\net5.0-windows\ref\EDP.dll
+C:\Users\ASUS\Downloads\JEVAH\EVENT DRIVEN\EDP_Project-main\bin\Debug\net5.0-windows\EDP.pdb
+C:\Users\ASUS\Downloads\JEVAH\EVENT DRIVEN\EDP_Project-main\bin\Debug\net5.0-windows\BouncyCastle.Crypto.dll
+C:\Users\ASUS\Downloads\JEVAH\EVENT DRIVEN\EDP_Project-main\bin\Debug\net5.0-windows\Google.Protobuf.dll
+C:\Users\ASUS\Downloads\JEVAH\EVENT DRIVEN\EDP_Project-main\bin\Debug\net5.0-windows\K4os.Compression.LZ4.dll
+C:\Users\ASUS\Downloads\JEVAH\EVENT DRIVEN\EDP_Project-main\bin\Debug\net5.0-windows\K4os.Compression.LZ4.Streams.dll
+C:\Users\ASUS\Downloads\JEVAH\EVENT DRIVEN\EDP_Project-main\bin\Debug\net5.0-windows\K4os.Hash.xxHash.dll
+C:\Users\ASUS\Downloads\JEVAH\EVENT DRIVEN\EDP_Project-main\bin\Debug\net5.0-windows\MySql.Data.dll
+C:\Users\ASUS\Downloads\JEVAH\EVENT DRIVEN\EDP_Project-main\bin\Debug\net5.0-windows\Ubiety.Dns.Core.dll
+C:\Users\ASUS\Downloads\JEVAH\EVENT DRIVEN\EDP_Project-main\bin\Debug\net5.0-windows\ZstdNet.dll
+C:\Users\ASUS\Downloads\JEVAH\EVENT DRIVEN\EDP_Project-main\obj\Debug\net5.0-windows\EDP.vbproj.AssemblyReference.cache
+C:\Users\ASUS\Downloads\JEVAH\EVENT DRIVEN\EDP_Project-main\obj\Debug\net5.0-windows\EDP.AdminPass.resources
+C:\Users\ASUS\Downloads\JEVAH\EVENT DRIVEN\EDP_Project-main\obj\Debug\net5.0-windows\EDP.AppointmentForm.resources
+C:\Users\ASUS\Downloads\JEVAH\EVENT DRIVEN\EDP_Project-main\obj\Debug\net5.0-windows\EDP.AppointmentUpdate.resources
+C:\Users\ASUS\Downloads\JEVAH\EVENT DRIVEN\EDP_Project-main\obj\Debug\net5.0-windows\EDP.ChangePass.resources
+C:\Users\ASUS\Downloads\JEVAH\EVENT DRIVEN\EDP_Project-main\obj\Debug\net5.0-windows\EDP.DBConnectTest.resources
+C:\Users\ASUS\Downloads\JEVAH\EVENT DRIVEN\EDP_Project-main\obj\Debug\net5.0-windows\EDP.EmpInfoEditAddForm.resources
+C:\Users\ASUS\Downloads\JEVAH\EVENT DRIVEN\EDP_Project-main\obj\Debug\net5.0-windows\EDP.EmployeeForm.resources
+C:\Users\ASUS\Downloads\JEVAH\EVENT DRIVEN\EDP_Project-main\obj\Debug\net5.0-windows\EDP.FgtPassForm.resources
+C:\Users\ASUS\Downloads\JEVAH\EVENT DRIVEN\EDP_Project-main\obj\Debug\net5.0-windows\EDP.LoginForm.resources
+C:\Users\ASUS\Downloads\JEVAH\EVENT DRIVEN\EDP_Project-main\obj\Debug\net5.0-windows\EDP.MainForm.resources
+C:\Users\ASUS\Downloads\JEVAH\EVENT DRIVEN\EDP_Project-main\obj\Debug\net5.0-windows\EDP.Resources.resources
+C:\Users\ASUS\Downloads\JEVAH\EVENT DRIVEN\EDP_Project-main\obj\Debug\net5.0-windows\EDP.PatInfoEditAddForm.resources
+C:\Users\ASUS\Downloads\JEVAH\EVENT DRIVEN\EDP_Project-main\obj\Debug\net5.0-windows\EDP.PatTableForm.resources
+C:\Users\ASUS\Downloads\JEVAH\EVENT DRIVEN\EDP_Project-main\obj\Debug\net5.0-windows\EDP.RegisterForm.resources
+C:\Users\ASUS\Downloads\JEVAH\EVENT DRIVEN\EDP_Project-main\obj\Debug\net5.0-windows\EDP.UserAccountForm.resources
+C:\Users\ASUS\Downloads\JEVAH\EVENT DRIVEN\EDP_Project-main\obj\Debug\net5.0-windows\EDP.UserInfoEditAddForm.resources
+C:\Users\ASUS\Downloads\JEVAH\EVENT DRIVEN\EDP_Project-main\obj\Debug\net5.0-windows\EDP.UserLogForm.resources
+C:\Users\ASUS\Downloads\JEVAH\EVENT DRIVEN\EDP_Project-main\obj\Debug\net5.0-windows\EDP.vbproj.GenerateResource.cache
+C:\Users\ASUS\Downloads\JEVAH\EVENT DRIVEN\EDP_Project-main\obj\Debug\net5.0-windows\EDP.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ASUS\Downloads\JEVAH\EVENT DRIVEN\EDP_Project-main\obj\Debug\net5.0-windows\EDP.AssemblyInfoInputs.cache
+C:\Users\ASUS\Downloads\JEVAH\EVENT DRIVEN\EDP_Project-main\obj\Debug\net5.0-windows\EDP.AssemblyInfo.vb
+C:\Users\ASUS\Downloads\JEVAH\EVENT DRIVEN\EDP_Project-main\obj\Debug\net5.0-windows\EDP.vbproj.CoreCompileInputs.cache
+C:\Users\ASUS\Downloads\JEVAH\EVENT DRIVEN\EDP_Project-main\obj\Debug\net5.0-windows\EDP.vbproj.CopyComplete
+C:\Users\ASUS\Downloads\JEVAH\EVENT DRIVEN\EDP_Project-main\obj\Debug\net5.0-windows\EDP.dll
+C:\Users\ASUS\Downloads\JEVAH\EVENT DRIVEN\EDP_Project-main\obj\Debug\net5.0-windows\ref\EDP.dll
+C:\Users\ASUS\Downloads\JEVAH\EVENT DRIVEN\EDP_Project-main\obj\Debug\net5.0-windows\EDP.pdb
+C:\Users\ASUS\Downloads\JEVAH\EVENT DRIVEN\EDP_Project-main\obj\Debug\net5.0-windows\EDP.genruntimeconfig.cache
