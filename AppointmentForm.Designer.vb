@@ -29,7 +29,7 @@ Partial Class AppointmentForm
         Me.picboxEmployeeLogo = New System.Windows.Forms.PictureBox()
         Me.Panel1 = New System.Windows.Forms.Panel()
         Me.datagridPatientAppoinment = New System.Windows.Forms.DataGridView()
-        Me.colPatientID = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Column1 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.colPatientName = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.colProcedureName = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.colDescription = New System.Windows.Forms.DataGridViewTextBoxColumn()
@@ -37,25 +37,23 @@ Partial Class AppointmentForm
         Me.colTime = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.colStatus = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.PanelAppointment = New System.Windows.Forms.Panel()
-        Me.TextBox3 = New System.Windows.Forms.TextBox()
+        Me.cmbboxProcedure = New System.Windows.Forms.ComboBox()
+        Me.txtboxPatientID = New System.Windows.Forms.TextBox()
         Me.lblPatientID = New System.Windows.Forms.Label()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
-        Me.lblAppointmentID = New System.Windows.Forms.Label()
         Me.lblTime = New System.Windows.Forms.Label()
         Me.datetimepickTime = New System.Windows.Forms.DateTimePicker()
         Me.lblDate = New System.Windows.Forms.Label()
         Me.datetimepickDate = New System.Windows.Forms.DateTimePicker()
         Me.txtboxDescription = New System.Windows.Forms.TextBox()
         Me.lblDescription = New System.Windows.Forms.Label()
-        Me.txtboxProcedure = New System.Windows.Forms.TextBox()
         Me.lblProcedure = New System.Windows.Forms.Label()
         Me.txtboxPatientName = New System.Windows.Forms.TextBox()
         Me.btnSaveAppointment = New System.Windows.Forms.Button()
         Me.lblPatientName = New System.Windows.Forms.Label()
-        Me.BtnLoadEmployee = New System.Windows.Forms.Button()
-        Me.btnDelete = New System.Windows.Forms.Button()
+        Me.BtnLoadAppoinment = New System.Windows.Forms.Button()
         Me.txtboxLiveSearch = New System.Windows.Forms.TextBox()
         Me.lblLiveSearch = New System.Windows.Forms.Label()
+        Me.btnUpdate = New System.Windows.Forms.Button()
         CType(Me.picboxEmployeeLogo, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel1.SuspendLayout()
         CType(Me.datagridPatientAppoinment, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -114,7 +112,7 @@ Partial Class AppointmentForm
         DataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
         Me.datagridPatientAppoinment.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle1
         Me.datagridPatientAppoinment.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.datagridPatientAppoinment.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.colPatientID, Me.colPatientName, Me.colProcedureName, Me.colDescription, Me.colDate, Me.colTime, Me.colStatus})
+        Me.datagridPatientAppoinment.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.Column1, Me.colPatientName, Me.colProcedureName, Me.colDescription, Me.colDate, Me.colTime, Me.colStatus})
         DataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
         DataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Control
         DataGridViewCellStyle2.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
@@ -142,13 +140,13 @@ Partial Class AppointmentForm
         Me.datagridPatientAppoinment.Size = New System.Drawing.Size(907, 518)
         Me.datagridPatientAppoinment.TabIndex = 120
         '
-        'colPatientID
+        'Column1
         '
-        Me.colPatientID.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill
-        Me.colPatientID.HeaderText = "Patient ID"
-        Me.colPatientID.MinimumWidth = 6
-        Me.colPatientID.Name = "colPatientID"
-        Me.colPatientID.ReadOnly = True
+        Me.Column1.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill
+        Me.Column1.HeaderText = "Appointment ID"
+        Me.Column1.MinimumWidth = 6
+        Me.Column1.Name = "Column1"
+        Me.Column1.ReadOnly = True
         '
         'colPatientName
         '
@@ -203,17 +201,15 @@ Partial Class AppointmentForm
         Me.PanelAppointment.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
             Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
         Me.PanelAppointment.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.PanelAppointment.Controls.Add(Me.TextBox3)
+        Me.PanelAppointment.Controls.Add(Me.cmbboxProcedure)
+        Me.PanelAppointment.Controls.Add(Me.txtboxPatientID)
         Me.PanelAppointment.Controls.Add(Me.lblPatientID)
-        Me.PanelAppointment.Controls.Add(Me.TextBox1)
-        Me.PanelAppointment.Controls.Add(Me.lblAppointmentID)
         Me.PanelAppointment.Controls.Add(Me.lblTime)
         Me.PanelAppointment.Controls.Add(Me.datetimepickTime)
         Me.PanelAppointment.Controls.Add(Me.lblDate)
         Me.PanelAppointment.Controls.Add(Me.datetimepickDate)
         Me.PanelAppointment.Controls.Add(Me.txtboxDescription)
         Me.PanelAppointment.Controls.Add(Me.lblDescription)
-        Me.PanelAppointment.Controls.Add(Me.txtboxProcedure)
         Me.PanelAppointment.Controls.Add(Me.lblProcedure)
         Me.PanelAppointment.Controls.Add(Me.txtboxPatientName)
         Me.PanelAppointment.Controls.Add(Me.btnSaveAppointment)
@@ -224,13 +220,24 @@ Partial Class AppointmentForm
         Me.PanelAppointment.Size = New System.Drawing.Size(336, 517)
         Me.PanelAppointment.TabIndex = 127
         '
-        'TextBox3
+        'cmbboxProcedure
         '
-        Me.TextBox3.Location = New System.Drawing.Point(11, 52)
-        Me.TextBox3.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox3.Name = "TextBox3"
-        Me.TextBox3.Size = New System.Drawing.Size(307, 27)
-        Me.TextBox3.TabIndex = 141
+        Me.cmbboxProcedure.FormattingEnabled = True
+        Me.cmbboxProcedure.Items.AddRange(New Object() {"Teeth Cleaning", "Root Canal", "Extractions", "Braces"})
+        Me.cmbboxProcedure.Location = New System.Drawing.Point(12, 162)
+        Me.cmbboxProcedure.Name = "cmbboxProcedure"
+        Me.cmbboxProcedure.Size = New System.Drawing.Size(306, 28)
+        Me.cmbboxProcedure.TabIndex = 142
+        '
+        'txtboxPatientID
+        '
+        Me.txtboxPatientID.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+        Me.txtboxPatientID.Location = New System.Drawing.Point(11, 52)
+        Me.txtboxPatientID.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtboxPatientID.Name = "txtboxPatientID"
+        Me.txtboxPatientID.ReadOnly = True
+        Me.txtboxPatientID.Size = New System.Drawing.Size(307, 27)
+        Me.txtboxPatientID.TabIndex = 141
         '
         'lblPatientID
         '
@@ -241,27 +248,10 @@ Partial Class AppointmentForm
         Me.lblPatientID.TabIndex = 140
         Me.lblPatientID.Text = "Patient ID"
         '
-        'TextBox1
-        '
-        Me.TextBox1.Location = New System.Drawing.Point(11, 104)
-        Me.TextBox1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(307, 27)
-        Me.TextBox1.TabIndex = 139
-        '
-        'lblAppointmentID
-        '
-        Me.lblAppointmentID.AutoSize = True
-        Me.lblAppointmentID.Location = New System.Drawing.Point(7, 82)
-        Me.lblAppointmentID.Name = "lblAppointmentID"
-        Me.lblAppointmentID.Size = New System.Drawing.Size(116, 20)
-        Me.lblAppointmentID.TabIndex = 138
-        Me.lblAppointmentID.Text = "Appointment ID"
-        '
         'lblTime
         '
         Me.lblTime.AutoSize = True
-        Me.lblTime.Location = New System.Drawing.Point(165, 350)
+        Me.lblTime.Location = New System.Drawing.Point(165, 297)
         Me.lblTime.Name = "lblTime"
         Me.lblTime.Size = New System.Drawing.Size(42, 20)
         Me.lblTime.TabIndex = 137
@@ -269,9 +259,9 @@ Partial Class AppointmentForm
         '
         'datetimepickTime
         '
-        Me.datetimepickTime.CustomFormat = "hh:mm tt"
+        Me.datetimepickTime.CustomFormat = "hh:mm:ss"
         Me.datetimepickTime.Format = System.Windows.Forms.DateTimePickerFormat.Custom
-        Me.datetimepickTime.Location = New System.Drawing.Point(170, 372)
+        Me.datetimepickTime.Location = New System.Drawing.Point(170, 319)
         Me.datetimepickTime.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.datetimepickTime.Name = "datetimepickTime"
         Me.datetimepickTime.ShowUpDown = True
@@ -281,7 +271,7 @@ Partial Class AppointmentForm
         'lblDate
         '
         Me.lblDate.AutoSize = True
-        Me.lblDate.Location = New System.Drawing.Point(7, 350)
+        Me.lblDate.Location = New System.Drawing.Point(7, 297)
         Me.lblDate.Name = "lblDate"
         Me.lblDate.Size = New System.Drawing.Size(41, 20)
         Me.lblDate.TabIndex = 135
@@ -289,8 +279,9 @@ Partial Class AppointmentForm
         '
         'datetimepickDate
         '
-        Me.datetimepickDate.Format = System.Windows.Forms.DateTimePickerFormat.[Short]
-        Me.datetimepickDate.Location = New System.Drawing.Point(11, 372)
+        Me.datetimepickDate.CustomFormat = "yyyy/MM/dd"
+        Me.datetimepickDate.Format = System.Windows.Forms.DateTimePickerFormat.Custom
+        Me.datetimepickDate.Location = New System.Drawing.Point(11, 319)
         Me.datetimepickDate.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.datetimepickDate.Name = "datetimepickDate"
         Me.datetimepickDate.Size = New System.Drawing.Size(149, 27)
@@ -298,7 +289,7 @@ Partial Class AppointmentForm
         '
         'txtboxDescription
         '
-        Me.txtboxDescription.Location = New System.Drawing.Point(11, 270)
+        Me.txtboxDescription.Location = New System.Drawing.Point(11, 217)
         Me.txtboxDescription.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtboxDescription.Multiline = True
         Me.txtboxDescription.Name = "txtboxDescription"
@@ -308,24 +299,16 @@ Partial Class AppointmentForm
         'lblDescription
         '
         Me.lblDescription.AutoSize = True
-        Me.lblDescription.Location = New System.Drawing.Point(7, 248)
+        Me.lblDescription.Location = New System.Drawing.Point(7, 195)
         Me.lblDescription.Name = "lblDescription"
         Me.lblDescription.Size = New System.Drawing.Size(85, 20)
         Me.lblDescription.TabIndex = 132
         Me.lblDescription.Text = "Description"
         '
-        'txtboxProcedure
-        '
-        Me.txtboxProcedure.Location = New System.Drawing.Point(11, 215)
-        Me.txtboxProcedure.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.txtboxProcedure.Name = "txtboxProcedure"
-        Me.txtboxProcedure.Size = New System.Drawing.Size(307, 27)
-        Me.txtboxProcedure.TabIndex = 131
-        '
         'lblProcedure
         '
         Me.lblProcedure.AutoSize = True
-        Me.lblProcedure.Location = New System.Drawing.Point(7, 192)
+        Me.lblProcedure.Location = New System.Drawing.Point(7, 139)
         Me.lblProcedure.Name = "lblProcedure"
         Me.lblProcedure.Size = New System.Drawing.Size(76, 20)
         Me.lblProcedure.TabIndex = 130
@@ -333,7 +316,7 @@ Partial Class AppointmentForm
         '
         'txtboxPatientName
         '
-        Me.txtboxPatientName.Location = New System.Drawing.Point(11, 160)
+        Me.txtboxPatientName.Location = New System.Drawing.Point(11, 107)
         Me.txtboxPatientName.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtboxPatientName.Name = "txtboxPatientName"
         Me.txtboxPatientName.Size = New System.Drawing.Size(307, 27)
@@ -345,7 +328,7 @@ Partial Class AppointmentForm
         Me.btnSaveAppointment.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnSaveAppointment.Font = New System.Drawing.Font("Segoe UI", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
         Me.btnSaveAppointment.ForeColor = System.Drawing.SystemColors.Window
-        Me.btnSaveAppointment.Location = New System.Drawing.Point(11, 434)
+        Me.btnSaveAppointment.Location = New System.Drawing.Point(11, 403)
         Me.btnSaveAppointment.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.btnSaveAppointment.Name = "btnSaveAppointment"
         Me.btnSaveAppointment.Size = New System.Drawing.Size(307, 38)
@@ -356,39 +339,25 @@ Partial Class AppointmentForm
         'lblPatientName
         '
         Me.lblPatientName.AutoSize = True
-        Me.lblPatientName.Location = New System.Drawing.Point(7, 138)
+        Me.lblPatientName.Location = New System.Drawing.Point(7, 85)
         Me.lblPatientName.Name = "lblPatientName"
         Me.lblPatientName.Size = New System.Drawing.Size(98, 20)
         Me.lblPatientName.TabIndex = 128
         Me.lblPatientName.Text = "Patient Name"
         '
-        'BtnLoadEmployee
+        'BtnLoadAppoinment
         '
-        Me.BtnLoadEmployee.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.BtnLoadEmployee.BackColor = System.Drawing.Color.ForestGreen
-        Me.BtnLoadEmployee.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.BtnLoadEmployee.ForeColor = System.Drawing.SystemColors.Window
-        Me.BtnLoadEmployee.Location = New System.Drawing.Point(1189, 96)
-        Me.BtnLoadEmployee.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
-        Me.BtnLoadEmployee.Name = "BtnLoadEmployee"
-        Me.BtnLoadEmployee.Size = New System.Drawing.Size(79, 31)
-        Me.BtnLoadEmployee.TabIndex = 130
-        Me.BtnLoadEmployee.Text = "Refresh"
-        Me.BtnLoadEmployee.UseVisualStyleBackColor = False
-        '
-        'btnDelete
-        '
-        Me.btnDelete.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.btnDelete.BackColor = System.Drawing.Color.DarkRed
-        Me.btnDelete.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnDelete.ForeColor = System.Drawing.SystemColors.Window
-        Me.btnDelete.Location = New System.Drawing.Point(1107, 96)
-        Me.btnDelete.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.btnDelete.Name = "btnDelete"
-        Me.btnDelete.Size = New System.Drawing.Size(72, 31)
-        Me.btnDelete.TabIndex = 128
-        Me.btnDelete.Text = "Delete"
-        Me.btnDelete.UseVisualStyleBackColor = False
+        Me.BtnLoadAppoinment.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.BtnLoadAppoinment.BackColor = System.Drawing.Color.ForestGreen
+        Me.BtnLoadAppoinment.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.BtnLoadAppoinment.ForeColor = System.Drawing.SystemColors.Window
+        Me.BtnLoadAppoinment.Location = New System.Drawing.Point(1189, 96)
+        Me.BtnLoadAppoinment.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.BtnLoadAppoinment.Name = "BtnLoadAppoinment"
+        Me.BtnLoadAppoinment.Size = New System.Drawing.Size(79, 31)
+        Me.BtnLoadAppoinment.TabIndex = 130
+        Me.BtnLoadAppoinment.Text = "Refresh"
+        Me.BtnLoadAppoinment.UseVisualStyleBackColor = False
         '
         'txtboxLiveSearch
         '
@@ -408,15 +377,29 @@ Partial Class AppointmentForm
         Me.lblLiveSearch.TabIndex = 132
         Me.lblLiveSearch.Text = "Live Search"
         '
+        'btnUpdate
+        '
+        Me.btnUpdate.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.btnUpdate.BackColor = System.Drawing.Color.Goldenrod
+        Me.btnUpdate.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnUpdate.ForeColor = System.Drawing.SystemColors.Window
+        Me.btnUpdate.Location = New System.Drawing.Point(1107, 96)
+        Me.btnUpdate.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.btnUpdate.Name = "btnUpdate"
+        Me.btnUpdate.Size = New System.Drawing.Size(72, 31)
+        Me.btnUpdate.TabIndex = 133
+        Me.btnUpdate.Text = "Update"
+        Me.btnUpdate.UseVisualStyleBackColor = False
+        '
         'AppointmentForm
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 20.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(1279, 675)
+        Me.Controls.Add(Me.btnUpdate)
         Me.Controls.Add(Me.txtboxLiveSearch)
         Me.Controls.Add(Me.lblLiveSearch)
-        Me.Controls.Add(Me.BtnLoadEmployee)
-        Me.Controls.Add(Me.btnDelete)
+        Me.Controls.Add(Me.BtnLoadAppoinment)
         Me.Controls.Add(Me.datagridPatientAppoinment)
         Me.Controls.Add(Me.Panel1)
         Me.Controls.Add(Me.PanelAppointment)
@@ -447,25 +430,23 @@ Partial Class AppointmentForm
     Friend WithEvents datetimepickDate As DateTimePicker
     Friend WithEvents txtboxDescription As TextBox
     Friend WithEvents lblDescription As Label
-    Friend WithEvents txtboxProcedure As TextBox
     Friend WithEvents lblProcedure As Label
     Friend WithEvents txtboxPatientName As TextBox
     Friend WithEvents btnSaveAppointment As Button
     Friend WithEvents lblPatientName As Label
-    Public WithEvents BtnLoadEmployee As Button
-    Friend WithEvents btnDelete As Button
-    Friend WithEvents TextBox1 As TextBox
-    Friend WithEvents lblAppointmentID As Label
+    Public WithEvents BtnLoadAppoinment As Button
     Friend WithEvents txtboxLiveSearch As TextBox
     Friend WithEvents lblLiveSearch As Label
     Friend WithEvents datetimepickTime As DateTimePicker
-    Friend WithEvents colPatientID As DataGridViewTextBoxColumn
+    Friend WithEvents txtboxPatientID As TextBox
+    Friend WithEvents lblPatientID As Label
+    Friend WithEvents cmbboxProcedure As ComboBox
+    Friend WithEvents Column1 As DataGridViewTextBoxColumn
     Friend WithEvents colPatientName As DataGridViewTextBoxColumn
     Friend WithEvents colProcedureName As DataGridViewTextBoxColumn
     Friend WithEvents colDescription As DataGridViewTextBoxColumn
     Friend WithEvents colDate As DataGridViewTextBoxColumn
     Friend WithEvents colTime As DataGridViewTextBoxColumn
     Friend WithEvents colStatus As DataGridViewTextBoxColumn
-    Friend WithEvents TextBox3 As TextBox
-    Friend WithEvents lblPatientID As Label
+    Friend WithEvents btnUpdate As Button
 End Class

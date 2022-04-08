@@ -215,7 +215,6 @@ C:\Users\ASUS\Downloads\JEVAH\EVENT DRIVEN\EDP_Project-main\bin\Debug\net5.0-win
 C:\Users\ASUS\Downloads\JEVAH\EVENT DRIVEN\EDP_Project-main\bin\Debug\net5.0-windows\MySql.Data.dll
 C:\Users\ASUS\Downloads\JEVAH\EVENT DRIVEN\EDP_Project-main\bin\Debug\net5.0-windows\Ubiety.Dns.Core.dll
 C:\Users\ASUS\Downloads\JEVAH\EVENT DRIVEN\EDP_Project-main\bin\Debug\net5.0-windows\ZstdNet.dll
-C:\Users\ASUS\Downloads\JEVAH\EVENT DRIVEN\EDP_Project-main\obj\Debug\net5.0-windows\EDP.vbproj.AssemblyReference.cache
 C:\Users\ASUS\Downloads\JEVAH\EVENT DRIVEN\EDP_Project-main\obj\Debug\net5.0-windows\EDP.AdminPass.resources
 C:\Users\ASUS\Downloads\JEVAH\EVENT DRIVEN\EDP_Project-main\obj\Debug\net5.0-windows\EDP.AppointmentForm.resources
 C:\Users\ASUS\Downloads\JEVAH\EVENT DRIVEN\EDP_Project-main\obj\Debug\net5.0-windows\EDP.AppointmentUpdate.resources

@@ -223,6 +223,7 @@ Partial Class MainForm
         Me.btnDashboard.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         Me.btnDashboard.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText
         Me.btnDashboard.UseVisualStyleBackColor = True
+        Me.btnDashboard.Visible = False
         '
         'Panel5
         '

@@ -2,6 +2,9 @@
 Imports System.ComponentModel
 
 Public Class PatTableForm
+
+    Public PatGridIndex As Integer
+
     Public Sub BtnLoadPatients_Click(sender As Object, e As EventArgs) Handles BtnLoadPatients.Click
         Me.datagridPatientTable.Rows.Clear()
 
@@ -180,4 +183,50 @@ Public Class PatTableForm
     Private Sub txtboxLiveSearch_Leave(sender As Object, e As EventArgs) Handles txtboxLiveSearch.Leave
         txtboxClear(txtboxLiveSearch)
     End Sub
+
+    Private Sub btnAddAppointment_Click(sender As Object, e As EventArgs) Handles btnAddAppointment.Click
+
+        PatGridIndex = datagridPatientTable.CurrentRow.Index
+
+        If MessageBox.Show("Do you want to add appointment for '" & Me.datagridPatientTable.Item(1, PatGridIndex).Value & "' ", "Appointment", MessageBoxButtons.YesNo, MessageBoxIcon.Information) = DialogResult.Yes Then
+
+            'ClearMainPanel()
+
+            sqlstr = "SELECT * FROM patient WHERE idpatient='" & Me.datagridPatientTable.Item(0, PatGridIndex).Value & "'"
+
+
+            Try
+                ConnectDatabase()
+                With sqlcmd
+                    .Connection = DBConnection
+                    .CommandType = CommandType.Text
+                    .CommandText = sqlstr
+                End With
+
+                myreader = sqlcmd.ExecuteReader
+
+                If myreader.Read() Then
+                    AppointmentForm.txtboxPatientID.Text = myreader.Item("idpatient").ToString
+                    AppointmentForm.txtboxPatientName.Text = myreader.Item("firstname").ToString + " " + myreader.Item("lastname").ToString
+                End If
+                DatabaseDisconnect()
+            Catch ex As Exception
+                MsgBox(ex.Message, MsgBoxStyle.Critical)
+            End Try
+
+
+            With AppointmentForm
+                .WindowState = FormWindowState.Maximized
+                .Dock = DockStyle.Fill And DockStyle.Bottom
+                .AutoSize = False
+                .TopLevel = False
+                MainForm.panelMain.Controls.Add(AppointmentForm)
+                .BringToFront()
+                .Show()
+            End With
+        Else
+            Exit Sub
+        End If
+    End Sub
+
 End Class

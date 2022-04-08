@@ -68,7 +68,7 @@ Partial Class UserLogForm
         DataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText
         DataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
         Me.datagridUserLogs.DefaultCellStyle = DataGridViewCellStyle2
-        Me.datagridUserLogs.Location = New System.Drawing.Point(10, 115)
+        Me.datagridUserLogs.Location = New System.Drawing.Point(11, 144)
         Me.datagridUserLogs.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.datagridUserLogs.Name = "datagridUserLogs"
         Me.datagridUserLogs.ReadOnly = True
@@ -84,7 +84,7 @@ Partial Class UserLogForm
         Me.datagridUserLogs.RowHeadersWidth = 51
         Me.datagridUserLogs.RowTemplate.Height = 29
         Me.datagridUserLogs.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect
-        Me.datagridUserLogs.Size = New System.Drawing.Size(1098, 414)
+        Me.datagridUserLogs.Size = New System.Drawing.Size(1255, 518)
         Me.datagridUserLogs.TabIndex = 31
         '
         'BtnLoadUserLogs
@@ -93,28 +93,29 @@ Partial Class UserLogForm
         Me.BtnLoadUserLogs.BackColor = System.Drawing.Color.ForestGreen
         Me.BtnLoadUserLogs.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.BtnLoadUserLogs.ForeColor = System.Drawing.SystemColors.Window
-        Me.BtnLoadUserLogs.Location = New System.Drawing.Point(1039, 75)
+        Me.BtnLoadUserLogs.Location = New System.Drawing.Point(1187, 94)
+        Me.BtnLoadUserLogs.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.BtnLoadUserLogs.Name = "BtnLoadUserLogs"
-        Me.BtnLoadUserLogs.Size = New System.Drawing.Size(69, 25)
+        Me.BtnLoadUserLogs.Size = New System.Drawing.Size(79, 31)
         Me.BtnLoadUserLogs.TabIndex = 30
         Me.BtnLoadUserLogs.Text = "Refresh"
         Me.BtnLoadUserLogs.UseVisualStyleBackColor = False
         '
         'txtboxLiveSearch
         '
-        Me.txtboxLiveSearch.Location = New System.Drawing.Point(10, 76)
+        Me.txtboxLiveSearch.Location = New System.Drawing.Point(11, 95)
         Me.txtboxLiveSearch.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtboxLiveSearch.Name = "txtboxLiveSearch"
-        Me.txtboxLiveSearch.Size = New System.Drawing.Size(204, 23)
+        Me.txtboxLiveSearch.Size = New System.Drawing.Size(233, 27)
         Me.txtboxLiveSearch.TabIndex = 25
         '
         'lblLiveSearch
         '
         Me.lblLiveSearch.AutoSize = True
         Me.lblLiveSearch.Font = New System.Drawing.Font("Segoe UI", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.lblLiveSearch.Location = New System.Drawing.Point(217, 76)
+        Me.lblLiveSearch.Location = New System.Drawing.Point(248, 95)
         Me.lblLiveSearch.Name = "lblLiveSearch"
-        Me.lblLiveSearch.Size = New System.Drawing.Size(77, 19)
+        Me.lblLiveSearch.Size = New System.Drawing.Size(95, 23)
         Me.lblLiveSearch.TabIndex = 26
         Me.lblLiveSearch.Text = "Live Search"
         '
@@ -125,10 +126,10 @@ Partial Class UserLogForm
         Me.Panel1.BackColor = System.Drawing.Color.DodgerBlue
         Me.Panel1.Controls.Add(Me.lblUserLogs)
         Me.Panel1.Controls.Add(Me.picboxEmployeeLogo)
-        Me.Panel1.Location = New System.Drawing.Point(10, 10)
+        Me.Panel1.Location = New System.Drawing.Point(11, 12)
         Me.Panel1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(1098, 54)
+        Me.Panel1.Size = New System.Drawing.Size(1255, 68)
         Me.Panel1.TabIndex = 32
         '
         'lblUserLogs
@@ -136,19 +137,19 @@ Partial Class UserLogForm
         Me.lblUserLogs.AutoSize = True
         Me.lblUserLogs.Font = New System.Drawing.Font("Segoe UI Semibold", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
         Me.lblUserLogs.ForeColor = System.Drawing.SystemColors.Window
-        Me.lblUserLogs.Location = New System.Drawing.Point(52, 10)
+        Me.lblUserLogs.Location = New System.Drawing.Point(59, 12)
         Me.lblUserLogs.Name = "lblUserLogs"
-        Me.lblUserLogs.Size = New System.Drawing.Size(246, 32)
+        Me.lblUserLogs.Size = New System.Drawing.Size(310, 41)
         Me.lblUserLogs.TabIndex = 1
         Me.lblUserLogs.Text = "User Log Information"
         '
         'picboxEmployeeLogo
         '
         Me.picboxEmployeeLogo.Image = Global.EDP.My.Resources.Resources.teamwork1
-        Me.picboxEmployeeLogo.Location = New System.Drawing.Point(11, 10)
+        Me.picboxEmployeeLogo.Location = New System.Drawing.Point(13, 12)
         Me.picboxEmployeeLogo.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.picboxEmployeeLogo.Name = "picboxEmployeeLogo"
-        Me.picboxEmployeeLogo.Size = New System.Drawing.Size(37, 33)
+        Me.picboxEmployeeLogo.Size = New System.Drawing.Size(42, 41)
         Me.picboxEmployeeLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.picboxEmployeeLogo.TabIndex = 0
         Me.picboxEmployeeLogo.TabStop = False
@@ -156,7 +157,7 @@ Partial Class UserLogForm
         'colID
         '
         Me.colID.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill
-        Me.colID.HeaderText = "ID"
+        Me.colID.HeaderText = "User Log ID"
         Me.colID.MinimumWidth = 6
         Me.colID.Name = "colID"
         Me.colID.ReadOnly = True
@@ -195,9 +196,9 @@ Partial Class UserLogForm
         '
         'UserLogForm
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 16.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 20.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1119, 540)
+        Me.ClientSize = New System.Drawing.Size(1279, 675)
         Me.ControlBox = False
         Me.Controls.Add(Me.datagridUserLogs)
         Me.Controls.Add(Me.BtnLoadUserLogs)

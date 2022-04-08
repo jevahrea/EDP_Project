@@ -9,7 +9,8 @@ Module database
 
     Public serverIpName As String = "localhost"
     Public userId As String = "root"
-    Public password As String = "041801"
+    Public password As String = "jevah"
+
     Public dbName As String = "edpproject"
 
     Public DBConnection As New MySqlConnection

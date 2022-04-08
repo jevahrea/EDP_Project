@@ -26,8 +26,7 @@ Partial Class AppointmentUpdate
         Me.lblPatientInformation = New System.Windows.Forms.Label()
         Me.picboxPatientLogo = New System.Windows.Forms.PictureBox()
         Me.grpboxEmployeeInfo = New System.Windows.Forms.GroupBox()
-        Me.txtboxPatientID = New System.Windows.Forms.TextBox()
-        Me.lblPatientID = New System.Windows.Forms.Label()
+        Me.cmbboxProcedure = New System.Windows.Forms.ComboBox()
         Me.txtboxAppointmentID = New System.Windows.Forms.TextBox()
         Me.lblAppointmentID = New System.Windows.Forms.Label()
         Me.lblTime = New System.Windows.Forms.Label()
@@ -36,7 +35,6 @@ Partial Class AppointmentUpdate
         Me.datetimepickDate = New System.Windows.Forms.DateTimePicker()
         Me.txtboxDescription = New System.Windows.Forms.TextBox()
         Me.lblDescription = New System.Windows.Forms.Label()
-        Me.txtboxProcedure = New System.Windows.Forms.TextBox()
         Me.lblProcedure = New System.Windows.Forms.Label()
         Me.txtboxPatientName = New System.Windows.Forms.TextBox()
         Me.lblPatientName = New System.Windows.Forms.Label()
@@ -46,6 +44,7 @@ Partial Class AppointmentUpdate
         Me.btnSave = New System.Windows.Forms.Button()
         Me.Panel1.SuspendLayout()
         CType(Me.picboxPatientLogo, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.grpboxEmployeeInfo.SuspendLayout()
         Me.SuspendLayout()
         '
         'Panel1
@@ -83,43 +82,52 @@ Partial Class AppointmentUpdate
         '
         'grpboxEmployeeInfo
         '
+        Me.grpboxEmployeeInfo.Controls.Add(Me.btnCancel)
+        Me.grpboxEmployeeInfo.Controls.Add(Me.cmbboxProcedure)
+        Me.grpboxEmployeeInfo.Controls.Add(Me.btnSave)
+        Me.grpboxEmployeeInfo.Controls.Add(Me.txtboxDescription)
+        Me.grpboxEmployeeInfo.Controls.Add(Me.cmbboxStatus)
+        Me.grpboxEmployeeInfo.Controls.Add(Me.lblPatientName)
+        Me.grpboxEmployeeInfo.Controls.Add(Me.Label1)
+        Me.grpboxEmployeeInfo.Controls.Add(Me.txtboxPatientName)
+        Me.grpboxEmployeeInfo.Controls.Add(Me.txtboxAppointmentID)
+        Me.grpboxEmployeeInfo.Controls.Add(Me.lblProcedure)
+        Me.grpboxEmployeeInfo.Controls.Add(Me.lblAppointmentID)
+        Me.grpboxEmployeeInfo.Controls.Add(Me.lblDescription)
+        Me.grpboxEmployeeInfo.Controls.Add(Me.lblTime)
+        Me.grpboxEmployeeInfo.Controls.Add(Me.datetimepickDate)
+        Me.grpboxEmployeeInfo.Controls.Add(Me.datetimepickTime)
+        Me.grpboxEmployeeInfo.Controls.Add(Me.lblDate)
         Me.grpboxEmployeeInfo.Location = New System.Drawing.Point(13, 83)
         Me.grpboxEmployeeInfo.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.grpboxEmployeeInfo.Name = "grpboxEmployeeInfo"
         Me.grpboxEmployeeInfo.Padding = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.grpboxEmployeeInfo.Size = New System.Drawing.Size(405, 610)
+        Me.grpboxEmployeeInfo.Size = New System.Drawing.Size(405, 588)
         Me.grpboxEmployeeInfo.TabIndex = 113
         Me.grpboxEmployeeInfo.TabStop = False
         '
-        'txtboxPatientID
+        'cmbboxProcedure
         '
-        Me.txtboxPatientID.Location = New System.Drawing.Point(62, 135)
-        Me.txtboxPatientID.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.txtboxPatientID.Name = "txtboxPatientID"
-        Me.txtboxPatientID.Size = New System.Drawing.Size(307, 27)
-        Me.txtboxPatientID.TabIndex = 155
-        '
-        'lblPatientID
-        '
-        Me.lblPatientID.AutoSize = True
-        Me.lblPatientID.Location = New System.Drawing.Point(58, 114)
-        Me.lblPatientID.Name = "lblPatientID"
-        Me.lblPatientID.Size = New System.Drawing.Size(73, 20)
-        Me.lblPatientID.TabIndex = 154
-        Me.lblPatientID.Text = "Patient ID"
+        Me.cmbboxProcedure.FormattingEnabled = True
+        Me.cmbboxProcedure.Items.AddRange(New Object() {"Teeth Cleaning", "Root Canal", "Extractions", "Braces"})
+        Me.cmbboxProcedure.Location = New System.Drawing.Point(48, 178)
+        Me.cmbboxProcedure.Name = "cmbboxProcedure"
+        Me.cmbboxProcedure.Size = New System.Drawing.Size(306, 28)
+        Me.cmbboxProcedure.TabIndex = 161
         '
         'txtboxAppointmentID
         '
-        Me.txtboxAppointmentID.Location = New System.Drawing.Point(62, 187)
+        Me.txtboxAppointmentID.Location = New System.Drawing.Point(48, 65)
         Me.txtboxAppointmentID.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtboxAppointmentID.Name = "txtboxAppointmentID"
+        Me.txtboxAppointmentID.ReadOnly = True
         Me.txtboxAppointmentID.Size = New System.Drawing.Size(307, 27)
         Me.txtboxAppointmentID.TabIndex = 153
         '
         'lblAppointmentID
         '
         Me.lblAppointmentID.AutoSize = True
-        Me.lblAppointmentID.Location = New System.Drawing.Point(58, 165)
+        Me.lblAppointmentID.Location = New System.Drawing.Point(44, 43)
         Me.lblAppointmentID.Name = "lblAppointmentID"
         Me.lblAppointmentID.Size = New System.Drawing.Size(116, 20)
         Me.lblAppointmentID.TabIndex = 152
@@ -128,44 +136,49 @@ Partial Class AppointmentUpdate
         'lblTime
         '
         Me.lblTime.AutoSize = True
-        Me.lblTime.Location = New System.Drawing.Point(216, 490)
+        Me.lblTime.Location = New System.Drawing.Point(202, 368)
         Me.lblTime.Name = "lblTime"
         Me.lblTime.Size = New System.Drawing.Size(42, 20)
         Me.lblTime.TabIndex = 151
         Me.lblTime.Text = "Time"
+        Me.lblTime.Visible = False
         '
         'datetimepickTime
         '
-        Me.datetimepickTime.CustomFormat = "hh:mm tt"
+        Me.datetimepickTime.CustomFormat = "hh:mm"
         Me.datetimepickTime.Format = System.Windows.Forms.DateTimePickerFormat.Custom
-        Me.datetimepickTime.Location = New System.Drawing.Point(221, 512)
+        Me.datetimepickTime.Location = New System.Drawing.Point(207, 390)
         Me.datetimepickTime.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.datetimepickTime.Name = "datetimepickTime"
         Me.datetimepickTime.ShowUpDown = True
         Me.datetimepickTime.Size = New System.Drawing.Size(149, 27)
         Me.datetimepickTime.TabIndex = 150
+        Me.datetimepickTime.Visible = False
         '
         'lblDate
         '
         Me.lblDate.AutoSize = True
-        Me.lblDate.Location = New System.Drawing.Point(58, 490)
+        Me.lblDate.Location = New System.Drawing.Point(44, 368)
         Me.lblDate.Name = "lblDate"
         Me.lblDate.Size = New System.Drawing.Size(41, 20)
         Me.lblDate.TabIndex = 149
         Me.lblDate.Text = "Date"
+        Me.lblDate.Visible = False
         '
         'datetimepickDate
         '
-        Me.datetimepickDate.Format = System.Windows.Forms.DateTimePickerFormat.[Short]
-        Me.datetimepickDate.Location = New System.Drawing.Point(62, 512)
+        Me.datetimepickDate.CustomFormat = "yyyy/MM/dd"
+        Me.datetimepickDate.Format = System.Windows.Forms.DateTimePickerFormat.Custom
+        Me.datetimepickDate.Location = New System.Drawing.Point(48, 390)
         Me.datetimepickDate.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.datetimepickDate.Name = "datetimepickDate"
         Me.datetimepickDate.Size = New System.Drawing.Size(149, 27)
         Me.datetimepickDate.TabIndex = 148
+        Me.datetimepickDate.Visible = False
         '
         'txtboxDescription
         '
-        Me.txtboxDescription.Location = New System.Drawing.Point(62, 353)
+        Me.txtboxDescription.Location = New System.Drawing.Point(48, 231)
         Me.txtboxDescription.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtboxDescription.Multiline = True
         Me.txtboxDescription.Name = "txtboxDescription"
@@ -175,24 +188,16 @@ Partial Class AppointmentUpdate
         'lblDescription
         '
         Me.lblDescription.AutoSize = True
-        Me.lblDescription.Location = New System.Drawing.Point(58, 331)
+        Me.lblDescription.Location = New System.Drawing.Point(44, 209)
         Me.lblDescription.Name = "lblDescription"
         Me.lblDescription.Size = New System.Drawing.Size(85, 20)
         Me.lblDescription.TabIndex = 146
         Me.lblDescription.Text = "Description"
         '
-        'txtboxProcedure
-        '
-        Me.txtboxProcedure.Location = New System.Drawing.Point(62, 298)
-        Me.txtboxProcedure.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.txtboxProcedure.Name = "txtboxProcedure"
-        Me.txtboxProcedure.Size = New System.Drawing.Size(307, 27)
-        Me.txtboxProcedure.TabIndex = 145
-        '
         'lblProcedure
         '
         Me.lblProcedure.AutoSize = True
-        Me.lblProcedure.Location = New System.Drawing.Point(58, 275)
+        Me.lblProcedure.Location = New System.Drawing.Point(44, 153)
         Me.lblProcedure.Name = "lblProcedure"
         Me.lblProcedure.Size = New System.Drawing.Size(76, 20)
         Me.lblProcedure.TabIndex = 144
@@ -200,7 +205,7 @@ Partial Class AppointmentUpdate
         '
         'txtboxPatientName
         '
-        Me.txtboxPatientName.Location = New System.Drawing.Point(62, 243)
+        Me.txtboxPatientName.Location = New System.Drawing.Point(48, 121)
         Me.txtboxPatientName.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtboxPatientName.Name = "txtboxPatientName"
         Me.txtboxPatientName.Size = New System.Drawing.Size(307, 27)
@@ -209,7 +214,7 @@ Partial Class AppointmentUpdate
         'lblPatientName
         '
         Me.lblPatientName.AutoSize = True
-        Me.lblPatientName.Location = New System.Drawing.Point(58, 221)
+        Me.lblPatientName.Location = New System.Drawing.Point(44, 99)
         Me.lblPatientName.Name = "lblPatientName"
         Me.lblPatientName.Size = New System.Drawing.Size(98, 20)
         Me.lblPatientName.TabIndex = 142
@@ -218,7 +223,7 @@ Partial Class AppointmentUpdate
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(58, 434)
+        Me.Label1.Location = New System.Drawing.Point(44, 312)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(49, 20)
         Me.Label1.TabIndex = 156
@@ -228,7 +233,7 @@ Partial Class AppointmentUpdate
         '
         Me.cmbboxStatus.FormattingEnabled = True
         Me.cmbboxStatus.Items.AddRange(New Object() {"No Show", "Cancelled", "Completed", "Scheduled", "Re-Scheduled"})
-        Me.cmbboxStatus.Location = New System.Drawing.Point(62, 456)
+        Me.cmbboxStatus.Location = New System.Drawing.Point(48, 334)
         Me.cmbboxStatus.Name = "cmbboxStatus"
         Me.cmbboxStatus.Size = New System.Drawing.Size(307, 28)
         Me.cmbboxStatus.TabIndex = 158
@@ -239,7 +244,7 @@ Partial Class AppointmentUpdate
         Me.btnCancel.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnCancel.Font = New System.Drawing.Font("Segoe UI", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
         Me.btnCancel.ForeColor = System.Drawing.SystemColors.Window
-        Me.btnCancel.Location = New System.Drawing.Point(62, 621)
+        Me.btnCancel.Location = New System.Drawing.Point(48, 513)
         Me.btnCancel.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.btnCancel.Name = "btnCancel"
         Me.btnCancel.Size = New System.Drawing.Size(308, 38)
@@ -253,7 +258,7 @@ Partial Class AppointmentUpdate
         Me.btnSave.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnSave.Font = New System.Drawing.Font("Segoe UI", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
         Me.btnSave.ForeColor = System.Drawing.SystemColors.Window
-        Me.btnSave.Location = New System.Drawing.Point(62, 577)
+        Me.btnSave.Location = New System.Drawing.Point(48, 469)
         Me.btnSave.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.btnSave.Name = "btnSave"
         Me.btnSave.Size = New System.Drawing.Size(308, 38)
@@ -265,36 +270,20 @@ Partial Class AppointmentUpdate
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 20.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(433, 704)
-        Me.Controls.Add(Me.btnCancel)
-        Me.Controls.Add(Me.btnSave)
-        Me.Controls.Add(Me.cmbboxStatus)
-        Me.Controls.Add(Me.Label1)
-        Me.Controls.Add(Me.txtboxPatientID)
-        Me.Controls.Add(Me.lblPatientID)
-        Me.Controls.Add(Me.txtboxAppointmentID)
-        Me.Controls.Add(Me.lblAppointmentID)
-        Me.Controls.Add(Me.lblTime)
-        Me.Controls.Add(Me.datetimepickTime)
-        Me.Controls.Add(Me.lblDate)
-        Me.Controls.Add(Me.datetimepickDate)
-        Me.Controls.Add(Me.txtboxDescription)
-        Me.Controls.Add(Me.lblDescription)
-        Me.Controls.Add(Me.txtboxProcedure)
-        Me.Controls.Add(Me.lblProcedure)
-        Me.Controls.Add(Me.txtboxPatientName)
-        Me.Controls.Add(Me.lblPatientName)
+        Me.ClientSize = New System.Drawing.Size(433, 687)
         Me.Controls.Add(Me.grpboxEmployeeInfo)
         Me.Controls.Add(Me.Panel1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.MaximizeBox = False
         Me.MinimizeBox = False
         Me.Name = "AppointmentUpdate"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Panel1.ResumeLayout(False)
         Me.Panel1.PerformLayout()
         CType(Me.picboxPatientLogo, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.grpboxEmployeeInfo.ResumeLayout(False)
+        Me.grpboxEmployeeInfo.PerformLayout()
         Me.ResumeLayout(False)
-        Me.PerformLayout()
 
     End Sub
 
@@ -302,8 +291,6 @@ Partial Class AppointmentUpdate
     Friend WithEvents lblPatientInformation As Label
     Friend WithEvents picboxPatientLogo As PictureBox
     Friend WithEvents grpboxEmployeeInfo As GroupBox
-    Friend WithEvents txtboxPatientID As TextBox
-    Friend WithEvents lblPatientID As Label
     Friend WithEvents txtboxAppointmentID As TextBox
     Friend WithEvents lblAppointmentID As Label
     Friend WithEvents lblTime As Label
@@ -312,7 +299,6 @@ Partial Class AppointmentUpdate
     Friend WithEvents datetimepickDate As DateTimePicker
     Friend WithEvents txtboxDescription As TextBox
     Friend WithEvents lblDescription As Label
-    Friend WithEvents txtboxProcedure As TextBox
     Friend WithEvents lblProcedure As Label
     Friend WithEvents txtboxPatientName As TextBox
     Friend WithEvents lblPatientName As Label
@@ -320,4 +306,5 @@ Partial Class AppointmentUpdate
     Friend WithEvents cmbboxStatus As ComboBox
     Friend WithEvents btnCancel As Button
     Friend WithEvents btnSave As Button
+    Friend WithEvents cmbboxProcedure As ComboBox
 End Class
